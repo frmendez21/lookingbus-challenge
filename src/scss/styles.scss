@@ -1,0 +1,42 @@
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// This template has no custom styling
+// Insert any custom SCSS here!
+#map {
+  height: 400px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#table {
+    margin: 0 auto;
+}
+
+.map-legend {
+    width: 22%;
+    position: absolute;
+    top: 50px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#bus-img, #marker-img {
+    margin: 0px 40%;
+}
+h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.65);
+}
+#loader {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+}
